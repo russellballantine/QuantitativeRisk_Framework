@@ -1,0 +1,33 @@
+Node,Description,Type,Probability
+1,"execCode(citrixServer,user)",OR,0.64
+2,RULE 3 (remote exploit for a client program),AND,0.64
+3,"accessMaliciousInput(citrixServer,victim_2,ie)",OR,0.8
+4,RULE 22 (Browsing a malicious website),AND,0.8
+5,attackerLocated(internet),LEAF,1
+6,"hacl(citrixServer,internet,httpProtocol,httpPort)",LEAF,1
+7,inCompetent(victim_2),LEAF,1
+8,"hasAccount(victim_2,citrixServer,user)",LEAF,1
+9,"vulExists(citrixServer,'CVE-2010-0490',ie,remoteClient,privEscalation)",LEAF,1
+10,"execCode(commServer,user)",OR,0.64
+11,RULE 3 (remote exploit for a client program),AND,0.64
+12,"accessMaliciousInput(commServer,victim_1,windows_2000)",OR,0.8
+13,RULE 22 (Browsing a malicious website),AND,0.8
+14,"hacl(commServer,internet,httpProtocol,httpPort)",LEAF,1
+15,inCompetent(victim_1),LEAF,1
+16,"hasAccount(victim_1,commServer,user)",LEAF,1
+17,"vulExists(commServer,'CVE-2010-0483',windows_2000,remoteClient,privEscalation)",LEAF,1
+18,"execCode(dataHistorian,root)",OR,0.4096
+19,RULE 2 (remote exploit of a server program),AND,0.4096
+20,"netAccess(dataHistorian,httpProtocol,httpPort)",OR,0.512
+21,RULE 5 (multi-hop access),AND,0.512
+22,"hacl(commServer,dataHistorian,httpProtocol,httpPort)",LEAF,1
+23,"networkServiceInfo(dataHistorian,mountd,httpProtocol,httpPort,root)",LEAF,1
+24,"vulExists(dataHistorian,'CVE-2010-0494',mountd,remoteExploit,privEscalation)",LEAF,1
+25,"execCode(vpnServer,user)",OR,0.64
+26,RULE 3 (remote exploit for a client program),AND,0.64
+27,"accessMaliciousInput(vpnServer,victim_5,openvpn)",OR,0.8
+28,RULE 22 (Browsing a malicious website),AND,0.8
+29,"hacl(vpnServer,internet,httpProtocol,httpPort)",LEAF,1
+30,inCompetent(victim_5),LEAF,1
+31,"hasAccount(victim_5,vpnServer,user)",LEAF,1
+32,"vulExists(vpnServer,'CVE-2010-0492',openvpn,remoteClient,privEscalation)",LEAF,1

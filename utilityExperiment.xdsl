@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<decision id="Node1">
+			<state id="None" />
+			<state id="Partial" />
+			<state id="Complete" />
+		</decision>
+		<decision id="Node2">
+			<state id="None" />
+			<state id="Partial" />
+			<state id="Complete" />
+			<parents>Node1</parents>
+		</decision>
+		<decision id="Node3">
+			<state id="None" />
+			<state id="Partial" />
+			<state id="Complete" />
+			<parents>Node2</parents>
+		</decision>
+		<maux id="Node5">
+			<parents>Node2 Node3 Node1</parents>
+			<expression>0</expression>
+			<expression>10</expression>
+			<expression>50</expression>
+			<expression>10</expression>
+			<expression>50</expression>
+			<expression>0</expression>
+			<expression>50</expression>
+			<expression>0</expression>
+			<expression>100</expression>
+			<expression>0</expression>
+			<expression>10</expression>
+			<expression>50</expression>
+			<expression>50</expression>
+			<expression>50</expression>
+			<expression>100</expression>
+			<expression>0</expression>
+			<expression>100</expression>
+			<expression>100</expression>
+			<expression>50</expression>
+			<expression>0</expression>
+			<expression>100</expression>
+			<expression>0</expression>
+			<expression>100</expression>
+			<expression>100</expression>
+			<expression>100</expression>
+			<expression>100</expression>
+			<expression>100</expression>
+		</maux>
+		<maux id="Node4">
+			<parents>Node5</parents>
+			<expression>Node5*100</expression>
+		</maux>
+		<maux id="Node7">
+			<parents>Node5</parents>
+			<expression>Node5*1000</expression>
+		</maux>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.5.5408.0 ACADEMIC" name="Network2">
+			<node id="Node1">
+				<name>Confidentiality</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>96 66 195 116</position>
+				<barchart width="128" height="72" />
+			</node>
+			<node id="Node2">
+				<name>Integrity</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>241 36 332 84</position>
+				<barchart width="128" height="72" />
+			</node>
+			<node id="Node3">
+				<name>Availability</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>390 68 476 117</position>
+				<barchart width="128" height="72" />
+			</node>
+			<node id="Node5">
+				<name>SECURITY IMPACT (DATA)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>154 240 395 300</position>
+			</node>
+			<node id="Node4">
+				<name>SECURITY IMPACT (Business Disruption)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>445 175 662 237</position>
+			</node>
+			<node id="Node7">
+				<name>SECURITY IMPACT (Reputation)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>437 323 666 387</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

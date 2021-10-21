@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="VRTX7">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX12">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX17">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.5600000000000001 0.44</probabilities>
+		</cpt>
+		<cpt id="VRTX18">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.41 0.59</probabilities>
+		</cpt>
+		<cpt id="VRTX16">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX17 VRTX18</parents>
+			<probabilities>0.201 0.799 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="VRTX15">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX16</parents>
+			<probabilities>0.8059701492537313 0.1940298507462687 0.5081351689612015 0.4918648310387985</probabilities>
+		</cpt>
+		<cpt id="VRTX19">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX20">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX14">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX15 VRTX19 VRTX20</parents>
+			<probabilities>0.619718309859155 0.3802816901408451 0.5 0.5 0.5 0.5 0.5 0.5 0.5416666666666666 0.4583333333333333 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="VRTX13">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX14</parents>
+			<probabilities>0.6262798634812287 0.3737201365187713 0.4830917874396135 0.5169082125603864</probabilities>
+		</cpt>
+		<cpt id="VRTX11">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX12 VRTX13</parents>
+			<probabilities>0.4832451499118166 0.5167548500881833 0.5080831408775981 0.4919168591224019 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="VRTX10">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX11</parents>
+			<probabilities>0.5101214574898786 0.4898785425101215 0.492094861660079 0.5079051383399209</probabilities>
+		</cpt>
+		<cpt id="VRTX21">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX22">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX9">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX10 VRTX21 VRTX22</parents>
+			<probabilities>0.4231536926147704 0.5768463073852295 0.5 0.5 0.5 0.5 0.5 0.5 0.5350701402805611 0.4649298597194388 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="VRTX8">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX9</parents>
+			<probabilities>0.4029227557411273 0.5970772442588725 0.5259117082533589 0.4740882917466411</probabilities>
+		</cpt>
+		<cpt id="VRTX6">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX7 VRTX8</parents>
+			<probabilities>0.3404710920770878 0.6595289079229122 0.5309568480300187 0.4690431519699813 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="VRTX24">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX25">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.9995004995004995 0.0004995004995004995</probabilities>
+		</cpt>
+		<cpt id="VRTX23">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX24 VRTX25 VRTX13</parents>
+			<probabilities>0.5202821869488536 0.4797178130511464 0.5427251732101617 0.4572748267898383 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="VRTX5">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX6 VRTX23</parents>
+			<probabilities>0.656 0.344 0.4947916666666666 0.5052083333333333 0.4928571428571428 0.5071428571428571 0.5143884892086331 0.4856115107913669</probabilities>
+		</cpt>
+		<cpt id="VRTX26">
+			<state id="Success" />
+			<state id="Failure" />
+			<probabilities>0.494 0.506</probabilities>
+		</cpt>
+		<cpt id="VRTX4">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX5 VRTX26</parents>
+			<probabilities>0.575091575091575 0.4249084249084249 0.49812734082397 0.50187265917603 0.5520361990950227 0.4479638009049774 0.5104602510460251 0.4895397489539748</probabilities>
+		</cpt>
+		<cpt id="VRTX3">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX4</parents>
+			<probabilities>0.5355805243445693 0.4644194756554307 0.5364806866952789 0.463519313304721</probabilities>
+		</cpt>
+		<cpt id="VRTX2">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX3</parents>
+			<probabilities>0.23 0.77 0.4892241379310345 0.5107758620689655</probabilities>
+		</cpt>
+		<cpt id="VRTX1">
+			<state id="Success" />
+			<state id="Failure" />
+			<parents>VRTX2</parents>
+			<probabilities>0.3957446808510638 0.6042553191489362 0.460377358490566 0.539622641509434</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.5.5408.0 ACADEMIC" name="Unnamed">
+			<node id="VRTX1">
+				<name>execCode(workStation,root)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1270 305 1355 360</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX2">
+				<name>RULE 4 (Trojan horse installation)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1075 246 1160 301</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX3">
+				<name>accessFile(workStation,write,&apos;/usr/local/share&apos;)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>898 242 983 297</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX4">
+				<name>RULE 16 (NFS semantics)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>915 376 1000 431</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX5">
+				<name>accessFile(fileServer,write,&apos;/export&apos;)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>697 366 782 421</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX6">
+				<name>RULE 10 (execCode implies file access)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>750 225 835 280</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX7">
+				<name>canAccessFile(fileServer,root,write,&apos;/export&apos;)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>712 73 797 128</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX8">
+				<name>execCode(fileServer,root)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>443 355 528 410</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX9">
+				<name>RULE 2 (remote exploit of a server program)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>247 378 332 433</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX10">
+				<name>netAccess(fileServer,rpc,100005)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>424 40 509 95</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX11">
+				<name>RULE 5 (multi-hop access)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>398 187 483 242</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX12">
+				<name>hacl(webServer,fileServer,rpc,100005)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>200 194 285 249</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX13">
+				<name>execCode(webServer,apache)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>548 242 633 297</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX14">
+				<name>RULE 2 (remote exploit of a server program)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>222 279 307 334</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX15">
+				<name>netAccess(webServer,tcp,8022)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>41 193 126 248</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX16">
+				<name>RULE 6 (direct network access)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>261 100 346 155</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX17">
+				<name>hacl(internet,webServer,tcp,8022)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>283 11 368 66</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX18">
+				<name>attackerLocated(internet)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>56 41 141 96</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX19">
+				<name>networkServiceInfo(webServer,httpd,tcp,8022,apache)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>65 297 150 352</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX20">
+				<name>vulExists(webServer,&apos;CAN-2002-0392&apos;,httpd,remoteExploit,privEscalation)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>94 395 179 450</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX21">
+				<name>networkServiceInfo(fileServer,mountd,rpc,100005,root)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>113 486 198 541</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX22">
+				<name>vulExists(fileServer,vulID,mountd,remoteExploit,privEscalation)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>262 569 347 624</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX23">
+				<name>RULE 17 (NFS shell)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>552 447 637 502</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX24">
+				<name>hacl(webServer,fileServer,nfsProtocol,nfsPort)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>433 589 518 644</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX25">
+				<name>nfsExportInfo(fileServer,&apos;/export&apos;,write,webServer)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>656 584 741 639</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="VRTX26">
+				<name>nfsMounted(workStation,&apos;/usr/local/share&apos;,fileServer,&apos;/export&apos;,read)</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>914 517 999 572</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
