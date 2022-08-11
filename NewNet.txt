@@ -1,5 +1,5 @@
 VRTX7 VRTX12 VRTX17 VRTX18 VRTX16 VRTX15 VRTX19 VRTX20 VRTX14 VRTX13 VRTX11 VRTX10 VRTX21 VRTX22 VRTX9 VRTX8 VRTX6 VRTX24 VRTX25 VRTX23 VRTX5 VRTX26 VRTX4 VRTX3 VRTX2 VRTX1
-Success Success Success Success Success Success Success Success Failure Failure Failure Failure Success Success Success Failure Success Success Success Failure Failure Success Success Success Success Failure
+Success Success Success Success Success Success Succes Success Failure Failure Failure Failure Success Success Success Failure Success Success Success Failure Failure Success Success Success Success Failure
 Success Success Success Success Failure Success Success Success Success Failure Failure Failure Success Success Failure Success Success Success Success Failure Success Success Success Success Failure Success
 Success Success Success Success Failure Failure Success Success Success Failure Failure Success Success Success Failure Success Failure Success Success Success Success Success Failure Failure Failure Failure
 Success Success Success Success Failure Success Success Success Failure Success Success Success Success Success Failure Success Failure Success Success Failure Success Success Success Success Success Failure
