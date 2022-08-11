@@ -9,7 +9,7 @@ import pysmile
 
  
 
-# CreateInfluenceDiag loads the XDSL file file created by CreateNet
+# CreateInfluenceDiag loads the XDSL file created by CreateNet
 
 # and adds decision and utility nodes, which transforms
 
