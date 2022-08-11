@@ -25,7 +25,7 @@ set_render_func(render_using_label)
 
 
 
-###################################################  EXPLORATION OF THE ONTOLOGY  #####################################################
+###################################################  EXPLORATION OF THE ONTOLOGY  ######################################################
 
 # Prnt the classes,instances and subclasses
 #classes = list(onto.classes())
