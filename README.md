@@ -1,6 +1,6 @@
 # Quantitative Risk Framework (MSc Thesis Blueprint)
 
-A structural security framework designed to model, quantify, and propagate cascading cyber risks across complex enterprise networks. This repository contains the original classical models, adjacency matrices, and graph architectures developed during my **MSc in Cybersecurity (Awarded with Distinction)**. 
+A structural security framework designed to model, quantify, and propagate cascading cyber risks across complex enterprise networks. This repository contains the original classical models, adjacency matrices, and graph architectures developed during my **MSc in Data Science at Edinburgh University **. 
 
 This research serves as the direct logical foundation for the next-generation **QCNN Quantum Bayesian Risk Evaluator** framework.
 
@@ -16,7 +16,19 @@ The core engine maps out enterprise attack surfaces by parsing infrastructure to
 * **Algorithmic Modeling (`attack_graph.py`):** The logical linkage system tracing multi-stage attack paths.
 
 ---
+[ THIS REPOSITORY ]                 [ QUANTUM EVALUATION CORE ]
+VERTICES & ARCS    ===========>    1. Qubit Wire Allocation
+(Asset Graph Layout)               (Maps 32 Classical Nodes to Wires)
+|                                      |
+v                                      v
+NewNet.xdsl      ===========>    2. QBN Feature Loader
+(Dependency Arrows)                (Controlled RY Rotations Embed Math)
+|
+v
+Classical MCMC    ===========>    3. QCNN Variational Aggregator
+(Baseline Control)                 (Trainable Convolutional/Pooling Layers)
 
+---
 ## 🧬 The Quantum Transition: Bridging Classical to Quantum
 
 While this classical framework relies on static probabilities and sampling methods to estimate risk, its core architecture has been elevated into a live, **Hybrid Quantum Computing Pipeline**. 
