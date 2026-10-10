@@ -1,4 +1,4 @@
-# Quantitative Risk Framework (MSc Thesis Blueprint)
+# Quantitative Risk Framework (MSc Blueprint)
 
 A structural security framework designed to model, quantify, and propagate cascading cyber risks across complex enterprise networks. This repository contains the original classical models, adjacency matrices, and graph architectures developed during my **MSc in Data Science at Edinburgh University **. 
 
@@ -23,11 +23,10 @@ VERTICES & ARCS    ===========>    1. Qubit Wire Allocation
 v                                      v
 NewNet.xdsl      ===========>    2. QBN Feature Loader
 (Dependency Arrows)                (Controlled RY Rotations Embed Math)
-|
-v
+|                                      |
+v                                      v
 Classical MCMC    ===========>    3. QCNN Variational Aggregator
-(Baseline Control)                 (Trainable Convolutional/Pooling Layers)
-
+(Baseline Control)                 (Trainable Convolutional/Pooling Layers
 ---
 ## 🧬 The Quantum Transition: Bridging Classical to Quantum
 
