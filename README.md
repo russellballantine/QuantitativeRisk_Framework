@@ -23,13 +23,13 @@ While this classical framework relies on static probabilities and sampling metho
 The files in this repository map directly into the quantum space through three core phases:
 
 ### 1. Structure as a Quantum Blueprint
-We treat the **`VERTICES.CSV`** and **`ARCS.CSV`** matrices as a permanent structural layout. Instead of rewriting network graphs from scratch, our quantum engine reads these files natively to dynamically spin up a **32-qubit register**. Your classical assets are cleanly mapped onto computational wires.
+We treat the **`VERTICES.CSV`** and **`ARCS.CSV`** matrices as a permanent structural layout. Instead of rewriting network graphs from scratch, the quantum engine reads these files natively to dynamically spin up a **32-qubit register**. The classical assets are cleanly mapped onto computational wires.
 
 ### 2. Causal Arrows as Controlled Gates
-The conditional arrows inside **`NewNet.xdsl`** define our quantum gate configurations. For root nodes, live threat metrics (NIST NVD & FIRST EPSS) determine single-qubit \(R_Y\) rotations. For dependent paths, your classical CPT structures translate into multi-controlled \(CR_Y\) gates, causing risk states to propagate simultaneously via quantum interference.
+The conditional arrows inside **`NewNet.xdsl`** define the quantum gate configurations. For root nodes, live threat metrics (NIST NVD & FIRST EPSS) determine single-qubit \(R_Y\) rotations. For dependent paths, classical CPT structures translate into multi-controlled \(CR_Y\) gates, causing risk states to propagate simultaneously via quantum interference.
 
 ### 3. Classical Monte Carlo as a Benchmark Control
-In this repository, **Monte Carlo sampling** is used to approximate cascading path risks classically. In the expanded quantum framework, this classical engine is retained as the **Baseline Control**. We run both models side-by-side to directly plot execution speed, accuracy, and scaling curves, proving the computational advantage of the quantum pipeline.
+In this repository, **Monte Carlo sampling** is used to approximate cascading path risks classically. In the expanded quantum framework, this classical engine is retained as the **Baseline Control**. 
 
 ---
 
